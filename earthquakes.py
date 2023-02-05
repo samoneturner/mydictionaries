@@ -23,8 +23,6 @@ print(len(earthq["features"]))
 
 
 list_eq_dict = []
-info = {}
-keys = ["Location", "Magnitude", "Longitude", "Latitude"]
 
 for e in earthq["features"]:
     if e["properties"]["mag"] > 6:
